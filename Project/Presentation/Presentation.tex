@@ -1,0 +1,79 @@
+\documentclass{beamer}
+%Information to be included in the title page:
+\usetheme{metropolis}
+
+\title{Formula 1 Elo Calculator}
+\author{Thomas Hosie}
+\date{February 2024}
+
+\begin{document}
+\begin{frame}
+    \titlepage
+\end{frame}
+
+\begin{frame}
+    \frametitle{Formula 1}
+    Running since 1950, the Formula One World Championship (F1) is the 
+\end{frame}
+
+\begin{frame}
+    \frametitle{Elo Rating System}
+    \begin{itemize}
+        \item Developed by Arpad Elo for use in rating chess players.
+        \item Each player has a rating assigned to them.
+        \item A player with a score 400 points higher is 10 times as likely to win a given match. 
+        \item Calculates the expected score between two players.
+        \item Then given the actual result, provides an updated rating.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Elo Rating System Calculation}
+    The expected result of a player is given by:
+    \begin{center}
+        $E_p = \dfrac{1}{1+10^ \dfrac{R_o-R_p}{400}}$
+    \end{center}
+    The updated Elo of a player is given by:
+    \begin{center}
+        $R'_p = R_p + K(S_p-E_p)$
+    \end{center}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Elo Rating System Example}
+    For a player with Elo of 1400 and opponent with Elo 1800:
+    \begin{center}
+        $E_p = \dfrac{1}{1+10^ \dfrac{1800-1400}{400}} = \dfrac{1}{1+10^ \dfrac{400}{400}}= \dfrac{1}{1+10^1}= \dfrac{1}{11}= 0.\overline{09}$
+    \end{center}
+    If the player wins (given a $K$ of 9):
+    \begin{center}
+        $R'_p = 1400 + 9(1-0.\overline{09})= 1400 + 9(0.\overline{90})= 1400 + 8.\overline{18} \approx 1408$
+    \end{center}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Issues With The Data}
+    \begin{itemize}
+        \item For some reason "$\backslash$N" was used as a placeholder.
+        \item Before 1961, cars were often shared between drivers.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Possible Future Development}
+    \begin{itemize}
+        \item Analyse the effect of more races in a season.
+        \item Create a way to factor in the relative performance of different cars.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Thanks}
+    \begin{center}
+        All data was taken from CSV's found at ergast.com and checked against other sources for accurracy.
+    
+        Any Questions?
+    \end{center}
+\end{frame}
+
+\end{document}
