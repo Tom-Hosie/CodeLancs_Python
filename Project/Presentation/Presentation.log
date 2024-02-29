@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.2.15)  29 FEB 2024 14:17
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.2.15)  29 FEB 2024 15:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -856,47 +856,74 @@ Overfull \vbox (47.92595pt too high) detected at line 12
 
 [1
 
-] [2
+]
+File: Qr Code.png Graphic file (type bmp)
+<Qr Code.png>
+
+Overfull \vbox (37.4027pt too high) detected at line 18
+ []
+
+[2
 
 ] [3
 
+] [4
+
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 40.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 48.
  (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 40.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 48.
  (c:/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [4
-
-] [5
+) [5
 
 ] [6
+
+] [7
 
 ]
 File: AllTimeTop10EloAll.png Graphic file (type bmp)
 <AllTimeTop10EloAll.png>
 
-Overfull \vbox (22.07771pt too high) detected at line 66
+Overfull \vbox (22.18971pt too high) detected at line 75
  []
 
-[7
+[8
 
 ]
 File: AllTimeTop10EloFinished.png Graphic file (type bmp)
 <AllTimeTop10EloFinished.png>
 
-Overfull \vbox (22.18971pt too high) detected at line 71
+Overfull \vbox (22.25371pt too high) detected at line 80
  []
 
-[8
+[9
 
-] [9
+]
+File: 2023Top10EloAll.png Graphic file (type bmp)
+<2023Top10EloAll.png>
 
-] [10
+Overfull \vbox (22.18971pt too high) detected at line 85
+ []
 
-] [11
+[10
+
+]
+File: 2023Top10EloFinished.png Graphic file (type bmp)
+<2023Top10EloFinished.png>
+
+Overfull \vbox (22.01373pt too high) detected at line 90
+ []
+
+[11
+
+] [12
+
+] [13
+
+] [14
 
 ]
 \tf@nav=\write6
@@ -917,12 +944,12 @@ Package rerunfilecheck Info: File `Presentation.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 27203 strings out of 474878
- 587608 string characters out of 5763760
+ 27237 strings out of 474878
+ 588303 string characters out of 5763760
  1924630 words of memory out of 5000000
- 48678 multiletter control sequences out of 15000+600000
+ 48709 multiletter control sequences out of 15000+600000
  566014 words of font info for 107 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  128i,13n,139p,1875b,584s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Presentation.pdf (11 pages).
+Output written on Presentation.pdf (14 pages).

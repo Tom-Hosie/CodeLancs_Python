@@ -12,19 +12,27 @@
 \end{frame}
 
 \begin{frame}
+    
+    \frametitle{Link To The Code}
+    \center\includegraphics[width=\textheight]{Qr Code.png}
+\end{frame}
+
+\begin{frame}
     \frametitle{Formula 1}
-    Running since 1950, the Formula One World Championship (F1) is the 
+    Running since 1950, the Formula One World Championship (F1) is the highest 
+    level of open wheel racing organised by the Fédération Internationale de 
+    l'Automobile (FIA), the body that regulates worldwide automobile racing.\par
+    There have been:
+    \begin{itemize}
+        \item 74 World Championships
+        \item Over 1000 World Championship races
+        \item Over 800 drivers
+    \end{itemize}
 \end{frame}
 
 \begin{frame}
     \frametitle{Elo Rating System}
-    \begin{itemize}
-        \item Developed by Arpad Elo for use in rating chess players.
-        \item Each player has a rating assigned to them.
-        \item A player with a score 400 points higher is 10 times as likely to win a given match. 
-        \item Calculates the expected score between two players.
-        \item Then given the actual result, provides an updated rating.
-    \end{itemize}
+    
 \end{frame}
 
 \begin{frame}
@@ -57,6 +65,7 @@
         \item Each race was considered a a series of 1 on 1 races between all drivers competing.
         \item The Elo changes from each 1 on 1 was summed to give a new Elo for each driver.
         \item This was repeated for each race in a given time period.
+        \item A base k Value of 5 was selected.
     \end{itemize}
 \end{frame}
 
@@ -70,6 +79,15 @@
     \includegraphics[width=\textwidth]{AllTimeTop10EloFinished.png}
 \end{frame}
 
+\begin{frame}
+    \frametitle{Top 10 Maximum Elo 2023 Entries}
+    \includegraphics[width=\textwidth]{2023Top10EloAll.png}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Top 10 Maximum Elo 2023 Finishers}
+    \includegraphics[width=\textwidth]{2023Top10EloFinished.png}
+\end{frame}
 
 \begin{frame}
     \frametitle{Issues With The Data}
@@ -94,7 +112,9 @@
             \item Perhaps vary the K value of each interaction by the number of races in a season.
         \end{itemize}
         \item Create a way to factor in the relative performance of different cars.
-        \item Investigate the case of inflation of the Elo values over time. 
+        \item Investigate the case of inflation of the Elo values over time.
+        \item Include results from Qualifying and the new Sprint Races.
+        \item Compare the Elo ratings from each year against the Championship Standings.
     \end{itemize}
 \end{frame}
 
