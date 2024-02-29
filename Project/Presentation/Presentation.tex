@@ -52,10 +52,37 @@
 \end{frame}
 
 \begin{frame}
+    \frametitle{How I Calculated Elo}
+    \begin{itemize}
+        \item Each race was considered a a series of 1 on 1 races between all drivers competing.
+        \item The Elo changes from each 1 on 1 was summed to give a new Elo for each driver.
+        \item This was repeated for each race in a given time period.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Top 10 Maximum Elo All Entries}
+    \includegraphics[width=\textwidth]{AllTimeTop10EloAll.png}
+\end{frame}
+
+\begin{frame}
+    \frametitle{Top 10 Maximum Elo All Finishers}
+    \includegraphics[width=\textwidth]{AllTimeTop10EloFinished.png}
+\end{frame}
+
+
+\begin{frame}
     \frametitle{Issues With The Data}
     \begin{itemize}
         \item For some reason "$\backslash$N" was used as a placeholder.
+        \begin{itemize}
+            \item Handled by replacing "$\backslash$N" with np.NaN
+        \end{itemize}
         \item Before 1961, cars were often shared between drivers.
+        \begin{itemize}
+            \item Handled by dividing the K value in each 1 on 1 by the number of drivers.
+            \item Eg. Car1 with 2 drivers and Car2 with 1, the K values of all interactions would be divided by 2.
+        \end{itemize}
     \end{itemize}
 \end{frame}
 
@@ -63,16 +90,21 @@
     \frametitle{Possible Future Development}
     \begin{itemize}
         \item Analyse the effect of more races in a season.
+        \begin{itemize}
+            \item Perhaps vary the K value of each interaction by the number of races in a season.
+        \end{itemize}
         \item Create a way to factor in the relative performance of different cars.
+        \item Investigate the case of inflation of the Elo values over time. 
     \end{itemize}
 \end{frame}
+
 
 \begin{frame}
     \frametitle{Thanks}
     \begin{center}
-        All data was taken from CSV's found at ergast.com and checked against other sources for accurracy.
+        All data was taken from CSV's found at ergast.com and checked against other sources for accuracy.
     
-        Any Questions?
+        \LARGE{Any Questions?}
     \end{center}
 \end{frame}
 

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.2.15)  28 FEB 2024 19:39
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.2.15)  29 FEB 2024 14:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -874,9 +874,29 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ] [6
 
-] [7
+]
+File: AllTimeTop10EloAll.png Graphic file (type bmp)
+<AllTimeTop10EloAll.png>
 
-] [8
+Overfull \vbox (22.07771pt too high) detected at line 66
+ []
+
+[7
+
+]
+File: AllTimeTop10EloFinished.png Graphic file (type bmp)
+<AllTimeTop10EloFinished.png>
+
+Overfull \vbox (22.18971pt too high) detected at line 71
+ []
+
+[8
+
+] [9
+
+] [10
+
+] [11
 
 ]
 \tf@nav=\write6
@@ -897,12 +917,12 @@ Package rerunfilecheck Info: File `Presentation.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 27126 strings out of 474878
- 585478 string characters out of 5763760
+ 27203 strings out of 474878
+ 587608 string characters out of 5763760
  1924630 words of memory out of 5000000
- 48612 multiletter control sequences out of 15000+600000
- 563362 words of font info for 90 fonts, out of 8000000 for 9000
+ 48678 multiletter control sequences out of 15000+600000
+ 566014 words of font info for 107 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  128i,13n,139p,1875b,584s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Presentation.pdf (8 pages).
+Output written on Presentation.pdf (11 pages).
